@@ -65,5 +65,6 @@
 
 	<modules>
 		<module>SpringBootDemo-Bean</module>
+		<module>SpringBootDemo</module>
 	</modules>
 </project>
