@@ -66,5 +66,6 @@
 	<modules>
 		<module>SpringBootDemo-Bean</module>
 		<module>SpringBootDemo</module>
+		<module>SpringBootDemo-AOP</module>
 	</modules>
 </project>
