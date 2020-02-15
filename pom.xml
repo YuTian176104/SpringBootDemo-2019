@@ -52,6 +52,29 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- <dependency>
+		    <groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger2</artifactId>
+		    <version>2.9.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.springfox</groupId>
+		    <artifactId>springfox-swagger-ui</artifactId>
+		    <version>2.9.2</version>
+		</dependency> -->
+		 
+		<dependency>
+		    <groupId>com.k4hub</groupId>
+		    <artifactId>swagger2-spring-boot-starter</artifactId>
+		    <version>1.0-RELEASE</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>fastjson</artifactId>
+		    <version>1.2.62</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -67,5 +90,6 @@
 		<module>SpringBootDemo-Bean</module>
 		<module>SpringBootDemo</module>
 		<module>SpringBootDemo-AOP</module>
+		<module>SpringBootDemo-Activiti</module>
 	</modules>
 </project>
